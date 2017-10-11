@@ -1,0 +1,59 @@
+body {
+    background: #00365f;
+}
+.navbar.navbar-inverse.navbar-fixed-top {
+    border-bottom: 3px solid #e52475;
+}
+.impersonalitation .navbar.navbar-default.navbar-fixed-top, .navbar.navbar-inverse.navbar-fixed-top {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .25);
+}
+#left-bar {
+    box-shadow: 3px 0 3px rgba(0, 0, 0, .25);
+}
+#right-bar {
+    box-shadow: -3px 0 3px rgba(0, 0, 0, .25);
+}
+.breadcrumb, .creator .form-control, .creator .mce-tinymce.mce-container.mce-panel, .creator .panel, .list-group.menu, .navbar.desktop, .panel {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .15);
+}
+.panel .breadcrumb, .panel .panel {
+    box-shadow: none;
+}
+.slider{
+width:400px;
+height:200px;
+border:solid 1px #555;
+padding:0;
+position:relative;
+margin:150px auto;
+}
+
+#slider-list{
+list-style-type:none;
+display:flex;
+margin:0;
+position:absolute;
+left:0;
+top:0;
+padding:0;
+}
+
+#slider-list img{
+width:400px;
+height:200px;
+margin:0;
+}
+
+@keyframes slide{
+0%{left:0px;}
+10%{left:0px;}
+35%{left:-100%;}
+45%{left:-100%;}
+75%{left:-200%;}
+85%{left:-200%;}
+90%{left:0px;}
+}
+
+#slid_list{
+    animation:slide 15s linear infinite;
+}
